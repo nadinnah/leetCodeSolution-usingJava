@@ -5,6 +5,7 @@ public class validAnagram {
         int[] isAnagram= new int[26];
 
         for(int i=0; i<sToCharArr.length;i++){
+            if (s.length() != t.length()) return false;
             isAnagram[sToCharArr[i]-'a']+=1;
             isAnagram[tToCharArr[i]-'a']-=1;
         }
