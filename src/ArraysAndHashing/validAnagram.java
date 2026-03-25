@@ -1,3 +1,5 @@
+package ArraysAndHashing;
+
 public class validAnagram {
     public boolean isAnagram(String s, String t) {
         char[] sToCharArr= s.toCharArray(); // a n a g r a m

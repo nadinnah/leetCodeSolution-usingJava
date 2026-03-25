@@ -1,3 +1,5 @@
+package ArraysAndHashing;
+
 import java.util.HashSet;
 
 public class longestConsecutiveSeq {
